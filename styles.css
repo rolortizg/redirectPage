@@ -8,11 +8,14 @@ body {
 h1 {
     font-family: 'Dosis', sans-serif; 
     text-transform: uppercase; 
-    text-align: center;
+    text-align: left;
     margin-top: 5%;
+    width: 100%;
 }
 p {
     font-family: 'Roboto', sans-serif;
+    text-align: left;
+    width: 100%;
 }
 .content-wrapper {
     width: 50%;
@@ -28,6 +31,14 @@ p {
 }
 
 img {
-    width: 40%;
+    width: 60%;
     height: auto;
+    margin: 35px 0;
+}
+
+@media  screen and (max-width: 800px) {  
+    img {
+        width: 100%;
+        
+    }  
 }
